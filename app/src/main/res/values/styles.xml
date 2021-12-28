@@ -1,0 +1,28 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- res/values/styles.xml PopWindow弹窗动画-->
+    <style name="animTranslate">
+        <item name="android:windowEnterAnimation">@anim/actionsheet_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/actionsheet_dialog_out</item>
+    </style>
+
+    <!-- res/values/styles.xml PopWindow弹窗动画-->
+    <style name="popwindow_anim" parent="android:Animation">
+
+        <item name="android:windowEnterAnimation">@anim/anim_popup_enter</item>
+
+        <item name="android:windowExitAnimation">@anim/anim_popup_exit</item>
+
+    </style>
+    <!-- res/values/styles.xml PopWindow弹窗动画-->
+    <style name="showPopupAnimation" parent="android:Animation">
+        <item name="android:windowExitAnimation">@anim/alpha_exit</item>
+        <item name="android:windowEnterAnimation">@anim/alpha_in</item><!--- alpha_in 进入动画  alpha_exit 退出动画-->
+    </style>
+</resources>

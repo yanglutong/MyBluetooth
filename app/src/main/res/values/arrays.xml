@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="meinv">
+        <item>123</item>
+        <item>234</item>
+        <item>455</item>
+        <item>435</item>
+        <item>453</item>
+        <item>345</item>
+    </string-array>
+</resources>
